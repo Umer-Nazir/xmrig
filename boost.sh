@@ -1,5 +1,8 @@
 #!/bin/bash
 
+apt install msr-tools
+
+
 modprobe msr
 
 if cat /proc/cpuinfo | grep "AMD EPYC" > /dev/null;
