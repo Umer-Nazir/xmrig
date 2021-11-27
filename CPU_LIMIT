@@ -3,3 +3,6 @@
 
 #EXECUTE THIS
 systemctl set-property user.slice CPUQuota=75%
+
+#IF DNS BLOCKED USE THIS TO FIND IP
+https://www.whatismyip.com/dns-lookup/
