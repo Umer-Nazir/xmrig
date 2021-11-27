@@ -1,0 +1,5 @@
+#GO TO THIS PATH
+/sys/fs/cgroup/cpu,cpuacct/user.slice
+
+#EXECUTE THIS
+systemctl set-property user.slice CPUQuota=75%
